@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
   });
 
   return NextResponse.json({
-    message: "Ro‘yxatdan o‘tish muvaffaqiyatli!",
+    message: "Ro‘yxatdann o‘tish muvaffaqiyatli!",
     user,
   });
 }
